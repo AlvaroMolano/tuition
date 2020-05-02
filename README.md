@@ -51,8 +51,21 @@ The application is created in a folder called tuition and has the following stru
 
 `pages` is where single route templates are maintained. For example for a "/blog" type of page.
 
-### Install
-`bench --site library install-app https://github.com/AlvaroMolano/tuition.git`
+### Install & Uninstall
+
+A. Installing App from GitHub
+To install app from your GitHub link for example on a new ERPNext instances:
+
+cd /home/bench/frappe/apps
+`bench get-app https://github.com/AlvaroMolano/tuition.git`
+`bench --site erpnext.domain.com install-app tuition`
+`bench --site erpnext.domain.com migrate`
+
+B. Uninstalling/Removing App
+You can remove the app by
+
+`bench --site erpnext.domain.com uninstall-app tuition`
+`bench remove-app tuition`
 
 
 ### TODO
