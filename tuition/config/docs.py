@@ -2,10 +2,10 @@
 Configuration for docs
 """
 
-# source_link = "https://github.com/[org_name]/tuition"
-# docs_base_url = "https://[org_name].github.io/tuition"
-# headline = "App that does everything"
-# sub_heading = "Yes, you got that right the first time, everything"
+# source_link = "https://github.com/AlvaroMolano/tuition"
+# docs_base_url = "https://AlvaroMolano.github.io/tuition"
+# headline = "Tuition aid for educational purposes"
+# sub_heading = "Cuestionare handling"
 
 def get_context(context):
 	context.brand_html = "Tuition"
